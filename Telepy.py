@@ -12,7 +12,7 @@ import subprocess
 import ctypes
 import os
 import shutil
-bot = telebot.TeleBot('5323047396:AAHBV5nqYBGqa5vUEAOS5BtOXZIl3LEpXVk') # here you paste your bot's API, which you can get in "BotFather" bot
+bot = telebot.TeleBot('') # here you paste your bot's API, which you can get in "BotFather" bot
 @bot.message_handler(content_types=['text','document', 'audio'])
  
 def get_text_messages(message):
